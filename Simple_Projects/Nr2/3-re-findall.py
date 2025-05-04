@@ -1,6 +1,6 @@
 import re
 
-text = "The quick brown fox"
+text = "The quick brown fox "
 pattern = r"brown"
 
 search = re.search(pattern, text)
